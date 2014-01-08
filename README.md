@@ -1,0 +1,4 @@
+CannabisCoin
+============
+
+The Official CannabisCoin
