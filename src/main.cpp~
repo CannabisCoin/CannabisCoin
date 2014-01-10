@@ -2786,7 +2786,7 @@ bool InitBlockIndex() {
         assert(block.hashMerkleRoot == uint256("bbaa0299a1bf8d72188a5f821212809244f1485da56e93afcbfac859b26f9785"));
 
 	block.print();
-        assert(hash == hashGenesisBlock);
+        assert(hash == hashGenesisBlock == uint256 ("0x1ed706e541744d03d841feb029c28bf35c5c7a21b4662d8e4f55f39dcc1fe72f"));
 
         // Start new block file
         try {
